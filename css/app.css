@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #838383;
+    background-color: #434343;
 }
 
 .nav-links li {
@@ -21,4 +21,16 @@
 /* Change the link color to #111 (black) on hover */
 .nav-links li a:hover {
     background-color: #111;
+}
+
+.title-banner {
+    text-align: center;
+    overflow: hidden;
+    display: inline;
+    font-size: 45px;
+}
+
+body{
+    background-color: #636363;
+    font-family: 'Ubuntu', sans-serif;
 }

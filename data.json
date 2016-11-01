@@ -4,88 +4,37 @@
     "email": "dileniscold@gmail.com",
     "url": "http://dylanvera.net",
     "facts": [
-        "I like seafood, particularly fish.",
-        "I can't whistle.",
-        "I can't snap my fingers.",
-        "My favorite brand of soy sauce is Kikkoman.",
-        "I sometimes wear glasses.",
-        "I dropped out of high school.",
-        "My favorite film is Finding Nemo (2003).",
-        "I know the first hundred digits of pi.",
-        "I can say I don't speak a language in many languages.",
-        "I prefer vim over emacs.",
-        "I often wear a black Nike hoodie.",
-        "My favorite data structure is the hash table.",
-        "I like pho.",
-        "I don't like cheese.",
-        "I can wiggle my ears.",
-        "The longest I've been awake is ~33 hours.",
-        "I held a school record in rope climbing for three years.",
-        "I once ate Chipotle for two straight weeks.",
-        "My favorite brand of instant noodles is Nong Shim.",
-        "I once solved a Rubik's Cube in 42 seconds.",
-        "I can throw a flying disc 50 meters.",
-        "I drink a lot of Gatorade.",
-        "My favorite style of eggs is scrambled.",
-        "I am very frugal.",
-        "I studied at Duke University.",
-        "I'm a minimalist.",
-        "I can use chopsticks.",
-        "I have a mild obsession with bread.",
-        "I don't like carbonated drinks.",
-        "I use spaces instead of tabs.",
-        "I have ten fingers.",
-        "I like reading.",
-        "Inconsistency annoys me.",
-        "I enjoy watching speedruns.",
-        "I like organizing things.",
-        "I know how to make fried rice."
+       
     ],
-    "stories": [
-        "Off-by-one birthday",
-        "Overtone",
-        "Sleeping outside"
-        ],
     "links": {
-        "facebook": {
-            "name": "Facebook",
-            "icon": "fa fa-facebook",
-            "url": "http://facebook.com/howardc93"
-        },
-        "twitter": {
-            "name": "Twitter",
-            "icon": "fa fa-twitter",
-            "url": "http://twitter.com/howardc93"
-        },
         "github": {
             "name": "GitHub",
             "icon": "fa fa-github",
-            "url": "http://github.com/howardchung"
-        },
-        "bitcoin": {
-            "name": "Bitcoin",
-            "icon": "fa fa-bitcoin",
-            "url": "https://blockchain.info/address/13XHeLLVeFtqef7WD4BDL3fQRqpVTUdG3i"
+            "url": "http://github.com/DylanVera"
         },
         "resume": {
             "name": "Resume",
             "icon": "fa fa-file",
             "url": "#"
         }
+        "portfolio": {
+            "name": "Portfolio",
+            "icon": "fa fa-port",
+            "url": "#"
+        }
     },
     "json": {
         "heading": "JSON",
         "content": {
-            "full_name": "Howard Chung",
+            "full_name": "Dylan Vera",
+            "age": 23,
             "gender": "male",
-            "height_cm": 177,
+            "height_cm": 185,
             "right_handed": true,
-            "hand_span_cm": 23,
-            "shoe_size": 11,
-            "birth_time": 726126840,
-            "birth_city": "Hong Kong",
+            "shoe_size": 12,
+            "birth_city": "Torrance, CA",
             "languages": ["en"],
-            "activities": ["programming", "ultimate", "hiking", "rock climbing", "Dota 2", "board games", "planespotting"]
+            "activities": ["programming", "Dota 2", "Magic: the Gathering", "esports", "hiking", "reading"]
         }
     },
     "education": {
@@ -93,81 +42,42 @@
         "content": [{
             "description": "B.S. Computer Science",
             "end_date": {
-                "year": 2015
+                "year": 2016
             },
-            "name": "Duke University"
+            "name": "CSU Long Beach"
         }]
     },
     "positions": {
         "heading": "Positions",
         "content": [{
-            "name": "Microsoft",
+            "name": "UCode",
             "start_date": {
-                "month": 8,
-                "year": 2015
+                "month": 11,
+                "year": 2013
             },
-            "description": ["Software engineer on Azure SQL DB Managed Backup team.", "Implemented Powershell cmdlets for Backup/Restore functionality", "Implemented optimizations to backup service to skip unnecessary differential backups"],
-            "title": "Software Engineer"
+            "description": ["Teaching programming fundamentals as well as web development and game development with Unity and Unreal Engine 4"
         }, {
-            "name": "Microsoft",
-            "start_date": {
-                "month": 5,
-                "year": 2014
-            },
+            "name": "Private Tutor",
             "end_date": {
-                "month": 8,
-                "year": 2014
-            },
-            "description": ["Software engineer on Azure SQL DB Management Service team.", "Implemented incremental build system to provide up to 15x reduction in build times.", "Improved runner security with dynamically created certificates and randomly generated passwords."],
-            "title": "Software Development Engineer in Test"
-        }, {
-            "name": "Duke University",
-            "start_date": {
-                "month": 1,
+                "month": 12,
                 "year": 2012
             },
-            "end_date": {
-                "year": 2014
-            },
-            "description": ["Graded student assignments.", "Staffed office hours for student help.", "Led lab sections of 15-30 students."],
-            "title": "Undergraduate Teaching Assistant"
-        }, {
-            "name": "Duke University",
-            "end_date": {
+            "start_date": {
                 "month": 12,
                 "year": 2013
             },
-            "start_date": {
-                "month": 5,
-                "year": 2013
-            },
-            "description": ["Developed Rails web interface for Cyclops, a tuning tool for distributed systems.", "Improved Cyclops algorithm by adding timing metrics for each stage."],
-            "title": "Research Assistant"
-        }, {
-            "name": "Moda Health",
-            "end_date": {
-                "month": 8,
-                "year": 2012
-            },
-            "start_date": {
-                "month": 5,
-                "year": 2012
-            },
-            "description": ["Developed graphical Java utilities for sending jobs to printers.", "Automated data retrieval and analysis from Xerox printers with Excel macros and batch files."],
-            "title": "Document Services Intern"
+            "description": ["Tutored high school and community college students in physics and math."],
+            "title": "Pyhsics/Math Tutor"
         }]
     },
     "skills": {
         "heading": "Skills",
         "content": [
             {
-                "name": "JavaScript"
+                "name": "C++"    
         },
             {
-                "name": "Node.js"
-        },
-            {
-                "name": "Java"
+                "name": "Java/Android SDK"
         },
             {
                 "name": "Python"
@@ -176,13 +86,19 @@
                 "name": "C#"
         },
             {
-                "name": "PostgreSQL"
+                "name": "Unity Engine"
         },
             {
-                "name": "MongoDB"
+                "name": "Swift 3/XCode"
+        }
+            {
+                "name": "JavaScript"
         },
             {
-                "name": "Redis"
+                "name": "Node.js"
+        },  
+            {
+                "name": "Node.js/React/Flux"
         }]
     }
 }

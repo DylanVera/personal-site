@@ -1,0 +1,20 @@
+{
+    "projects": [
+        {
+            "name": "FireSlinger",
+            "image": "",
+            "description": "FireSlinger is a sidescrolling 2D shooter prototype created for my Senior Project. The built-in Rigidbody physics system in Unity isn't well suited for fast feelin of oldschool arcade platformers."
+        },
+        {
+            "name": "TrackDota",
+            "image": "",
+            "description": "An Android app that allows you to get live updates and keep track of professional Dota 2 matches as they happen. Just like boxscores for baseball and other sports, TrackDota gives you a quick and simple breakdown of the game."
+        },
+        {
+            "name": "Flux Shopping Cart",
+            "image": "",
+            "description": "Prototype of a product page and shopping cart functionality using React/Flux. The app accurately tracks inventory of products as well as the shoppping cart. Currently working on setting up a payment API like Stripe or Paypal to make it a fully functioning store page."
+        }
+    ]
+    
+}
