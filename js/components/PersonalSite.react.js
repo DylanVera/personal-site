@@ -5,18 +5,24 @@ var Route = require('react-router').Route;
 var IndexRoute = require('react-router').IndexRoute;
 var hashHistory = require('react-router').hashHistory;
 var Portfolio = require('./Portfolio.react');
-var Projects = require('../ProjectDetails.js')
-var Nav = require("./Nav.react")
+var Projects = require('../ProjectDetails.json');
+var Nav = require("./Nav.react");
 
+
+
+
+console.log(Projects);
 const Container = (props) => <div><Nav />{props.children}</div>
 const PortfolioContainer = (props) => <div><Portfolio projects={Projects}/></div>
 
-var Header = React.createClass({
+var PersonalSite = React.createClass({
     render: function() {
+       
         return(
+            
             <Router history={hashHistory}>
                 <Route path='/' component={Container}>
-                    <IndexRoute component={PortfolioContainer} />
+                    <IndexRoute component={Portfolio} />
                     <Route path='/resume' component={Resume} />
                     <Route path='*' component={NotFound}></Route>
                 </Route>
@@ -28,4 +34,4 @@ var Header = React.createClass({
 const NotFound = () => <h1>404</h1>
 const Resume = () => <h1>Resume</h1>
 
-module.exports = Header;
+module.exports = PersonalSite;

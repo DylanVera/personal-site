@@ -34,3 +34,28 @@ body{
     background-color: #636363;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.project{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #5a5a5a;
+    margin-top: 2%;
+}
+
+.project img{
+    display: block;
+    margin: auto;
+    padding-top: 2%;
+    width: 80%;
+}
+
+.project-desc{
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+.project-desc h1{
+    text-decoration: underline;
+    font-weight: bold;
+}

@@ -25,7 +25,7 @@ module.exports = {
       {
         name: 'Flux Cart',
         image: 'http://placehold.it/350x150',
-        description: 'Prototype design for a Flux/React based e-commerce page. Data structures and views are all implemented.',
+        description: 'Prototype design for a Flux/React based e-commerce page. Data structures and views are all implemented, all that\'s missing is a payment API',
         repo: ''
       }
     ]));

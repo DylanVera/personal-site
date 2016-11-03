@@ -1,9 +1,9 @@
 window.React = require('react');
 var ReactDOM = require('react-dom')
-var Header = require('./components/Header.react')
+var PersonalSite = require('./components/PersonalSite.react')
 
 ReactDOM.render(
-  <Header />,
+  <PersonalSite />,
   document.getElementById('main')
 );
 
