@@ -5,10 +5,10 @@ var Project = React.createClass({
     render: function() {
         return(
             <div className="project">
-                <img src="http://placehold.it/350x150"/*{'img/' + this.props.product.image}*//>
+                <img src="http://placehold.it/350x150"/*{'img/' + this.props.image}*//>
                 <div className="project-desc">
-                    <h1>barf</h1>
-                    <p>stuff</p>
+                    <h1>{this.props.name}</h1>
+                    <p>{this.props.desc}</p>
                 </div>
             </div>
         );

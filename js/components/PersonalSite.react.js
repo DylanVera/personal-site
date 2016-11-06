@@ -8,18 +8,13 @@ var Portfolio = require('./Portfolio.react');
 var Projects = require('../ProjectDetails.json');
 var Nav = require("./Nav.react");
 
-
-
-
-console.log(Projects);
 const Container = (props) => <div><Nav />{props.children}</div>
 const PortfolioContainer = (props) => <div><Portfolio projects={Projects}/></div>
 
 var PersonalSite = React.createClass({
     render: function() {
-       
+        
         return(
-            
             <Router history={hashHistory}>
                 <Route path='/' component={Container}>
                     <IndexRoute component={Portfolio} />
