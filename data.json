@@ -28,13 +28,11 @@
         "content": {
             "full_name": "Dylan Vera",
             "age": 23,
-            "gender": "male",
-            "height_cm": 185,
-            "right_handed": true,
-            "shoe_size": 12,
-            "birth_city": "Torrance, CA",
-            "languages": ["en"],
-            "activities": ["programming", "Dota 2", "Magic: the Gathering", "esports", "hiking", "reading"]
+            "home_town": "Manhattan Beach, CA",
+            "current_location": "Los Angeles, CA"
+            "university": "CSU Long Beach",
+            "major": "BS in Computer Science"
+            "hobbies": ["coding", "Dota 2", "Magic: the Gathering", "esports", "reading"]
         }
     },
     "education": {
@@ -55,7 +53,7 @@
                 "month": 11,
                 "year": 2013
             },
-            "description": ["Teaching programming fundamentals as well as web development and game development with Unity and Unreal Engine 4"
+            "description": ["Teaching programming fundamentals as well as web development and game development with a variety of languages and frameworks"
         }, {
             "name": "Private Tutor",
             "end_date": {

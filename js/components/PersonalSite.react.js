@@ -1,5 +1,4 @@
 var React = require("react")
-
 var Router = require('react-router').Router;
 var Route = require('react-router').Route;
 var IndexRoute = require('react-router').IndexRoute;
@@ -7,9 +6,10 @@ var hashHistory = require('react-router').hashHistory;
 var Portfolio = require('./Portfolio.react');
 var Projects = require('../ProjectDetails.json');
 var Nav = require("./Nav.react");
+var Home = require("./Home.react");
 
 const Container = (props) => <div><Nav />{props.children}</div>
-const PortfolioContainer = (props) => <div><Portfolio projects={Projects}/></div>
+//const PortfolioContainer = (props) => <div><Portfolio projects={Projects}/></div>
 
 var PersonalSite = React.createClass({
     render: function() {
@@ -17,9 +17,10 @@ var PersonalSite = React.createClass({
         return(
             <Router history={hashHistory}>
                 <Route path='/' component={Container}>
-                    <IndexRoute component={Portfolio} />
+                    <IndexRoute component={Home} />
+                    <Route path='/projects' component={Portfolio} />
                     <Route path='/resume' component={Resume} />
-                    <Route path='*' component={NotFound}></Route>
+                    <Route path='*' component={NotFound} />
                 </Route>
             </Router>
         )

@@ -20,14 +20,24 @@
 
 /* Change the link color to #111 (black) on hover */
 .nav-links li a:hover {
-    background-color: #111;
+    background-color: #333;
 }
 
-.title-banner {
+.title-banner{
     text-align: center;
     overflow: hidden;
     display: inline;
     font-size: 45px;
+    text-decoration:none
+}
+
+.title-banner a{
+    text-decoration: none;
+    color: black;
+}
+
+.title-banner a:hover{
+    color: #0f0f0f;
 }
 
 body{
@@ -58,4 +68,20 @@ body{
 .project-desc h1{
     text-decoration: underline;
     font-weight: bold;
+}
+
+.about-json{
+    clear: both;
+    background-color: #808080;
+    display: block;
+    padding: 9.5px;
+    /*margin: 0 0 10px;*/
+    margin: 10px auto 10px;
+    width: 75%;
+    font-size: 13px;
+    line-height: 1.42857143;
+    word-break: break-all;
+    word-wrap: break-word;
+    border: 2px solid #434343;
+    border-radius: 4px;
 }

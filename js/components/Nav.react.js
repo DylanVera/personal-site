@@ -7,9 +7,9 @@ var Nav = React.createClass({
         return(
             <div className="nav-div">
                 <ul className="nav-links">
-                    <h1 className="title-banner">Dylan Vera</h1>
+                    <h1 className="title-banner"><IndexLink to='/'>Dylan Vera</IndexLink></h1>
                     <li><Link to="/resume">Resume</Link></li>
-                    <li><IndexLink to="/">Projects</IndexLink></li>
+                    <li><Link to="/projects">Projects</Link></li>
                 </ul>
             </div>
         )
