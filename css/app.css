@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #808080;
+}
+
+.nav-links li {
+    float: right;
+}
+
+.nav-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25% 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-links li a:hover {
+    background-color: #444;
+}
+
+.title-banner{
+    text-align: center;
+    overflow: hidden;
+    display: inline;
+    font-size: 3em;
+}
+
+.title-banner a{
+
+    text-decoration: none;
+    color: black;
+    margin: 0 1%;
+}
+
+.title-banner a:hover{
+    color: #444;
+}
+
+body{
+    background-color: #dddddd; /*#535353;*/
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.project{
+    width: 75%;
+    background-color: #a0a0a0;
+    padding-bottom: 2%;
+    margin: 2% auto 2%;
+    border: 3px solid #777;
+    border-radius: 8px;
+}
+
+.project img{
+    display: block;
+    margin: auto;
+    padding-top: 3%;
+    max-width: 80%;
+}
+
+.project-desc{
+    margin: 0 10%;
+    padding-bottom: 2%;
+}
+
+.project-desc h1{
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 1% 0;
+}
+
+.about-me{
+    margin: auto;
+    width: 75%;
+}
+
+.about-intro{
+    width: 100%;
+    margin: 2% auto 2%;
+    overflow: hidden;
+}
+
+.about-intro img{
+    width: 33%;
+    padding: 5% 0;
+    float: left;
+}
+
+
+.about-json{
+    clear: both;
+    background-color: #a0a0a0;
+    display: block;
+    padding: 9.5px;
+    margin: 2% auto;
+    width: 100%;
+    font-size: 1.5em;
+    line-height: 1.42857143;
+    word-break: break-all;
+    word-wrap: break-word;
+    border: 2px solid #434343;
+    border-radius: 8px;
+}
+
+.repo-link{
+    font-weight: bold;
+    float: right;
+    margin-top: 2.5%;
+    color: black;
+}
+
+.repo-link:hover{
+    color: #444;
+}
+
+.intro{
+    margin: 5% 3%;
+    width: 60%;
+    float: left;
+}
+
+.intro p{
+    overflow: hidden;
+    font-size: 2em;
+}
+
+.about-me div + div{
+   margin-bottom:2%;
+}
+
+.resume-frame{
+    display: block;
+    margin: 2% auto;
+    width: 50%;
+   /* background-color: #a0a0a0;
+    padding-bottom: 2%;
+    border: 3px solid #777;
+    border-radius: 8px;*/
+}
+
+canvas{
+    width: 100%;
+    margin: 2% auto;
+    display: inline;
+}

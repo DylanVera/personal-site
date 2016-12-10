@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "name": "FireSlinger",
+            "image": "Fireslinger.jpg",
+            "description": "FireSlinger is a sidescrolling 2D shooter prototype created for my Senior Project. Unity's built in physics system is meant to simulate realistic kinematics so our team implemented our own raycast based physics system to give the game the feeling of a super fast old school platformer. The demo has two singleplayer levels available as well as a WIP local multiplayer mode. Keyboard and Gamepad controls supported. Art assets thanks to CC0.",
+            "repo": "https://bitbucket.org/DylanVera/fireslinger"   
+        },
+        {
+            "name": "TrackDota",
+            "image": "liveGame.png", 
+            "description": "An Android app that allows you to get live updates and keep track of professional Dota 2 matches as they happen. Get all the stats you need from each players individual score to their item builds. This was a project I used to learn about the Android SDK and how to work with REST APIs.",
+            "repo": "https://github.com/DylanVera/TrackDota"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "profilejpg": "",
+    "phone": 3105080247,
+    "email": "dileniscold@gmail.com",
+    "url": "http://dylanvera.net",
+    "facts": [
+       
+    ],
+    "links": {
+        "github": {
+            "name": "GitHub",
+            "icon": "fa fa-github",
+            "url": "http://github.com/DylanVera"
+        },
+        "resume": {
+            "name": "Resume",
+            "icon": "fa fa-file",
+            "url": "#"
+        }
+        "portfolio": {
+            "name": "Portfolio",
+            "icon": "fa fa-port",
+            "url": "#"
+        }
+    },
+    "json": {
+        "heading": "JSON",
+        "content": {
+            "full_name": "Dylan Vera",
+            "age": 23,
+            "home_town": "Manhattan Beach, CA",
+            "current_location": "Los Angeles, CA"
+            "university": "CSU Long Beach",
+            "major": "BS in Computer Science"
+            "hobbies": ["coding", "Dota 2", "Magic: the Gathering", "esports", "reading"]
+        }
+    },
+    "education": {
+        "heading": "Education",
+        "content": [{
+            "description": "B.S. Computer Science",
+            "end_date": {
+                "year": 2016
+            },
+            "name": "CSU Long Beach"
+        }]
+    },
+    "positions": {
+        "heading": "Positions",
+        "content": [{
+            "name": "UCode",
+            "start_date": {
+                "month": 11,
+                "year": 2013
+            },
+            "description": ["Teaching programming fundamentals as well as web development and game development with a variety of languages and frameworks"
+        }, {
+            "name": "Private Tutor",
+            "end_date": {
+                "month": 12,
+                "year": 2012
+            },
+            "start_date": {
+                "month": 12,
+                "year": 2013
+            },
+            "description": ["Tutored high school and community college students in physics and math."],
+            "title": "Pyhsics/Math Tutor"
+        }]
+    },
+    "skills": {
+        "heading": "Skills",
+        "content": [
+            {
+                "name": "C++"    
+        },
+            {
+                "name": "Java/Android SDK"
+        },
+            {
+                "name": "Python"
+        },
+            {
+                "name": "C#"
+        },
+            {
+                "name": "Unity Engine"
+        },
+            {
+                "name": "Swift 3/XCode"
+        }
+            {
+                "name": "JavaScript"
+        },
+            {
+                "name": "Node.js"
+        },  
+            {
+                "name": "Node.js/React/Flux"
+        }]
+    }
+}
