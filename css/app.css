@@ -7,6 +7,7 @@
     list-style-type: none;
     overflow: hidden;
     background-color: #808080;
+    height: 10%;
 }
 
 .nav-links li {
@@ -17,8 +18,9 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 25% 16px;
+    padding: 25% 5%;
     text-decoration: none;
+    margin: 0 5%;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -30,14 +32,14 @@
     text-align: center;
     overflow: hidden;
     display: inline;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .title-banner a{
 
     text-decoration: none;
     color: black;
-    margin: 0 1%;
+    margin: 0 5%;
 }
 
 .title-banner a:hover{
@@ -63,6 +65,7 @@ body{
     margin: auto;
     padding-top: 3%;
     max-width: 80%;
+    
 }
 
 .project-desc{
@@ -78,7 +81,7 @@ body{
 
 .about-me{
     margin: auto;
-    width: 75%;
+    width: 80%;
 }
 
 .about-intro{
@@ -98,7 +101,7 @@ body{
     clear: both;
     background-color: #a0a0a0;
     display: block;
-    padding: 9.5px;
+    padding: 1%;
     margin: 2% auto;
     width: 100%;
     font-size: 1.5em;
@@ -106,7 +109,7 @@ body{
     word-break: break-all;
     word-wrap: break-word;
     border: 2px solid #434343;
-    border-radius: 8px;
+    border-radius: 2%;
 }
 
 .repo-link{
@@ -129,6 +132,9 @@ body{
 .intro p{
     overflow: hidden;
     font-size: 2em;
+    margin: 5% 3%;
+    width: 100%;
+    float: left;
 }
 
 .about-me div + div{

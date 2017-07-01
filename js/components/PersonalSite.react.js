@@ -9,7 +9,8 @@ var Nav = require("./Nav.react");
 var Home = require("./Home.react");
 var Resume = require("./Resume.react");
 
-const Container = (props) => <div><Nav />{props.children}</div>
+const Container = (props) => <div><Nav />{props.children}</div>;
+
 //const PortfolioContainer = (props) => <div><Portfolio projects={Projects}/></div>
 
 var PersonalSite = React.createClass({
