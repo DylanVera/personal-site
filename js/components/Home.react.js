@@ -17,9 +17,9 @@ var Home = React.createClass({
                 <div className="about-intro">
                     <img src="img/headshot.jpg" />
                     <div className="intro">
-                        <p>Hi, my name is Dylan Vera and I'm a software developer. 
-                            My work mainly focuses on game and mobile app development 
-                            but I have experience with a wide variety of languages. 
+                        <p>
+                            Hi, my name is Dylan Vera. I make games and mobile apps.
+                            Here you can see my résumé and check out a few of projects I've worked on.
                         </p>
                     </div>
                 </div>

@@ -3,25 +3,25 @@
         {
             "name": "FireSlinger",
             "image": "Fireslinger.jpg",
-            "description": "FireSlinger is a sidescrolling 2D shooter prototype created for my team's Senior Project. Unity's built in physics system is meant to simulate realistic kinematics so our team implemented our own raycast based physics system to give the game the feeling of a super fast old school platformer. The demo has two singleplayer levels available as well as a WIP local multiplayer mode. Keyboard and Gamepad controls supported. Art assets thanks to CC0.",
+            "description": "FireSlinger is a sidescrolling 2D shooter prototype created for my team's senior project. The demo has two singleplayer levels available as well as a local multiplayer mode. Keyboard and Gamepad controls supported.",
             "repo": "https://bitbucket.org/DylanVera/fireslinger"   
-        },
-        {
-            "name": "React Cart",
-            "image": "cartTest.png", 
-            "description": "A simple single-page shopping cart/product page ",
-            "repo": "https://github.com/DylanVera/TrackDota"
         },
         {
             "name": "TrackDota",
             "image": "liveGame.png", 
-            "description": "An Android app that allows you to get live updates and keep track of professional Dota 2 matches as they happen. Get all the stats you need from each players individual score to their item builds. This was a project I used to learn about the Android SDK and REST APIs.",
+            "description": "An Android app I built to practice working with REST APIs. The app allows you to get live updates and keep track of professional Dota 2 matches as they happen. Get tons of info, from each players individual stats to their item builds. (tower status/draft phase WIP)",
             "repo": "https://github.com/DylanVera/TrackDota"
+        },
+        {
+            "name": "React Cart",
+            "image": "cartTest.png", 
+            "description": "A simple responsive single-page shopping cart/product page I used to learn React.js",
+            "repo": "https://github.com/DylanVera/FluxCart"
         },
         {
             "name": "Node System",
             "image": "",
-            "description": "A thing with nodes and stuff",
+            "description": "Multithreaded Java Client/Server using a shared data structure concurrently. The system can register many clients simultaneously and can be extended for a variety of web applications, from user databases to chat programs and more",
             "repo": "https://github.com/DylanVera/NodeSystem"
         }
     ]
