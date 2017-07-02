@@ -19,7 +19,7 @@ var Home = React.createClass({
                     <div className="intro">
                         <p>
                             Hi, my name is Dylan Vera. I make games and mobile apps.
-                            Here you can see my résumé and check out a few of projects I've worked on.
+                            Here you can see my resume and check out a few of projects I've worked on.
                         </p>
                     </div>
                 </div>
