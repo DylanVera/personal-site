@@ -2,7 +2,7 @@
     "profilejpg": "",
     "phone": 3105080247,
     "email": "dileniscold@gmail.com",
-    "url": "http://dylanvera.net",
+    "url": "dylanvera.herokuapp.com",
     "facts": [
        
     ],
@@ -25,7 +25,7 @@
     },
     "json": {
   "full_name": "Dylan Vera",
-  "age": 23,
+  "age": 24,
   "home_town": "Manhattan Beach, CA",
   "current_location": "Los Angeles, CA",
   "university": "CSU Long Beach",
@@ -63,7 +63,7 @@
         "heading": "Skills",
         "content": [
             {
-                "name": "C++"    
+                "name": "C/C++"    
         },
             {
                 "name": "Java/Android SDK"

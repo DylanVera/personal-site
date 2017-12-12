@@ -7,7 +7,7 @@ var Resume = React.createClass({
             <div className="resume-frame">
                 <PDF file="DylanVeraResume.pdf" page={1} className="resume"/>
             </div>
-            )
+        )
     }
 }); 
 

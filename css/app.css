@@ -1,28 +1,37 @@
+
+
 * {
   margin: 0;
   padding: 0;
 }
 
+.nav-div{
+    width: 100%;
+    background-color: #808080;
+}
+
 .nav-links {
+    float: right;
     list-style-type: none;
     overflow: hidden;
-    background-color: #808080;
-    height: 10%;
+    padding: 0;
+    padding-right: 2%;
+    margin: 0;
 }
 
 .nav-links li {
-    float: right;
+    float: left;
 }
 
 .nav-links li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 25% 5%;
+    padding: 20% 5%;
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/*Change the link color to #111 (black) on hover*/
 .nav-links li a:hover {
     background-color: #444;
 }
