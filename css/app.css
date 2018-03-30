@@ -1,39 +1,45 @@
-
-
 * {
   margin: 0;
   padding: 0;
 }
 
-.nav-div{
-    width: 100%;
+html, body {
+    height: 100%;
+}
+
+header{
     background-color: #808080;
+    height: 5%;
+}
+
+nav{
+    height: 100%;
 }
 
 .nav-links {
     float: right;
-    list-style-type: none;
     overflow: hidden;
-    padding: 0;
-    padding-right: 2%;
-    margin: 0;
+    display: table;
 }
 
-.nav-links li {
-    float: left;
-}
 
-.nav-links li a {
-    display: block;
+.nav-links a {
+    
     color: white;
     text-align: center;
-    padding: 20% 5%;
     text-decoration: none;
+    vertical-align: middle;
+    height: 100%;
 }
 
 /*Change the link color to #111 (black) on hover*/
-.nav-links li a:hover {
-    background-color: #444;
+.nav-links a:hover {
+    color: #444;
+}
+
+.nav-links li{
+    display: table-cell;
+    min-height: 100%;
 }
 
 .title-banner{
@@ -44,7 +50,7 @@
 }
 
 .title-banner a{
-
+    display: inline-block;
     text-decoration: none;
     color: black;
 }
@@ -102,7 +108,6 @@ body{
     padding: 5% 0 3%;
     float: left;
 }
-
 
 .about-json{
     clear: both;
