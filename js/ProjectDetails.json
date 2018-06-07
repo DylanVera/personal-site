@@ -9,7 +9,7 @@
         {
             "name": "TrackDota",
             "image": "liveGame.png", 
-            "description": "An Android app to get live updates and keep track of professional Dota 2 matches as they happen. Get tons of info, from each players individual stats to their item builds. (tower status/draft phase WIP)",
+            "description": "An Android app to get live updates and keep track of professional Dota 2 matches as they happen. Get tons of info, from each players individual stats to their item builds and more",
             "repo": "https://github.com/DylanVera/TrackDota"
         },
         {
