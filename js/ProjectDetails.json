@@ -9,13 +9,13 @@
         {
             "name": "TrackDota",
             "image": "liveGame.png", 
-            "description": "An Android app I built to practice working with REST APIs. The app allows you to get live updates and keep track of professional Dota 2 matches as they happen. Get tons of info, from each players individual stats to their item builds. (tower status/draft phase WIP)",
+            "description": "An Android app to get live updates and keep track of professional Dota 2 matches as they happen. Get tons of info, from each players individual stats to their item builds. (tower status/draft phase WIP)",
             "repo": "https://github.com/DylanVera/TrackDota"
         },
         {
             "name": "React Cart",
             "image": "cartTest.png", 
-            "description": "A simple responsive single-page shopping cart/product page I used to learn React.js",
+            "description": "A simple responsive single-page shopping cart/product page made with React.js",
             "repo": "https://github.com/DylanVera/FluxCart"
         },
         {
